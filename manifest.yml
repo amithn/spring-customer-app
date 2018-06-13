@@ -1,0 +1,10 @@
+---
+applications:
+- name: anambiar-customer-app
+  memory: 1GB
+  instances: 1
+  path: build/libs/spring-customer-app-0.0.1-SNAPSHOT.jar
+
+
+
+
