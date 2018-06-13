@@ -4,3 +4,4 @@ applications:
   memory: 1GB
   instances: 2
   path: build/libs/spring-customer-app-0.0.1-SNAPSHOT.jar
+
