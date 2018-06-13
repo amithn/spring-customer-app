@@ -17,6 +17,7 @@ public class SpringCustomerAppApplication {
 		SpringApplication.run(SpringCustomerAppApplication.class, args);
 	}
 
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public Hello helloWorld() {
 		return new Hello("Hello from Cloud Foundry the time here is " + new Date().toString());
 	}
