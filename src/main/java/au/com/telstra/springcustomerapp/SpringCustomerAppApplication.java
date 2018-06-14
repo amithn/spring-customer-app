@@ -24,6 +24,6 @@ public class SpringCustomerAppApplication {
 
 	@RequestMapping(value = "/customers", method = RequestMethod.POST)
 	public Result add(@RequestBody  Customer customer) {
-		return new Result( customer.getName(), "OK");
+		return new Result( customer.getName().toUpperCase() , "OK");
 	}
 }
