@@ -6,7 +6,7 @@ public class Result {
 
     public Result(String name, String code) {
         this.code = code;
-        this.message = name + " successfully added!";
+        this.message = name + " added!";
     }
 
     public String getCode() {
