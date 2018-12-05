@@ -1,4 +1,4 @@
-package au.com.telstra.springcustomerapp;
+package au.com.app.springcustomerapp;
 
 public class Hello {
     private String message;

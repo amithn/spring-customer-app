@@ -1,4 +1,4 @@
-package au.com.telstra.springcustomerapp;
+package au.com.app.springcustomerapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
