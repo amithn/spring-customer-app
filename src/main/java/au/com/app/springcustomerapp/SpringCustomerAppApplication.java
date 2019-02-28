@@ -19,7 +19,7 @@ public class SpringCustomerAppApplication {
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public Hello helloWorld() {
-		return new Hello("Hello from Cloud Foundry Spinnaker - ACA - Test 2 : " + new Date().toString());
+		return new Hello("Hello from Cloud Foundry Spinnaker - ACA - Test 3 : " + new Date().toString());
 	}
 
 	@RequestMapping(value = "/customers", method = RequestMethod.POST)
