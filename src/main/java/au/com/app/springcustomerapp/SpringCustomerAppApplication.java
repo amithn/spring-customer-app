@@ -22,7 +22,7 @@ public class SpringCustomerAppApplication {
 		SpringApplication.run(SpringCustomerAppApplication.class, args);
 	}
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public Hello helloWorld() {
 		return new Hello("Hello from Cloud Foundry Spinnaker - TEST RUN 4  : " + deploymentType);
 	}
