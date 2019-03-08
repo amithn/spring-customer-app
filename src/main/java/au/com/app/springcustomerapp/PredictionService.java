@@ -8,7 +8,7 @@ import java.util.Random;
 @Service
 public class PredictionService {
 
-  @Timed("prediction.algorithm")
+  //@Timed("prediction.algorithm")
   public Integer predictionAlgorithm() {
     try {
       int millis = new Random().nextInt(5);

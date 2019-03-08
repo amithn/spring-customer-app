@@ -23,7 +23,7 @@ public class CustomerController {
   }
 
   @GetMapping("/hello")
-  @Timed("prediction.api")
+  //@Timed("prediction.api")
   public Hello helloWorld() {
     predictionService.predictionAlgorithm();
     return new Hello("Hello from Cloud Foundry Spinnaker - TEST RUN 5  : " + deploymentType);
