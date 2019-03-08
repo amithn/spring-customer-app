@@ -26,7 +26,7 @@ public class CustomerController {
   //@Timed("prediction.api")
   public Hello helloWorld() {
     predictionService.predictionAlgorithm();
-    return new Hello("Hello from Cloud Foundry Spinnaker - TEST RUN 5  : " + deploymentType);
+    return new Hello("Hello from Cloud Foundry Spinnaker - TEST RUN 5   : " + deploymentType);
   }
 
   @PostMapping("/customers")
